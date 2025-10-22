@@ -4,7 +4,7 @@ export default function Card({ category, background, color, icon, score }) {
   return (
     <div className={clase}>
         <div className="flex gap-2">
-            <img src={icon} />
+            <img src={icon} alt="icon" />
             <p className="font-semibold" style={{ color: color }}>
             {category}
             </p>
